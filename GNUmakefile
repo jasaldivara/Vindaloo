@@ -8,21 +8,21 @@ include $(GNUSTEP_MAKEFILES)/common.make
 # Application
 #
 VERSION = 0.2
-PACKAGE_NAME = Vindaloo
-APP_NAME = Vindaloo
-Vindaloo_APPLICATION_ICON = 
-Vindaloo_MAIN_MODEL_FILE = Main
+PACKAGE_NAME = ViewPDF
+APP_NAME = ViewPDF
+ViewPDF_APPLICATION_ICON = 
+ViewPDF_MAIN_MODEL_FILE = Main
 
 #
 # Used Libraries
 #
-Vindaloo_LIB_DIRS =
-Vindaloo_GUI_LIBS = -lPopplerKit
+ViewPDF_LIB_DIRS =
+ViewPDF_GUI_LIBS = -lPopplerKit
 
 #
 # Global Resource files
 #
-Vindaloo_RESOURCE_FILES = \
+ViewPDF_RESOURCE_FILES = \
 Images/First.png \
 Images/Last.png \
 Images/Next.png \
@@ -34,15 +34,15 @@ Images/Fit*.png
 #
 # Language Resources
 #
-Vindaloo_LANGUAGES = English 
-Vindaloo_LOCALIZED_RESOURCE_FILES = \
+ViewPDF_LANGUAGES = English 
+ViewPDF_LOCALIZED_RESOURCE_FILES = \
 Main.gorm \
 Document.gorm
 
 #
 # Class files
 #
-Vindaloo_OBJC_FILES = \
+ViewPDF_OBJC_FILES = \
 AppDelegate.m \
 CenteringClipView.m \
 Controller.m \
@@ -62,7 +62,7 @@ ZoomFactor.m
 #
 # C files
 #
-Vindaloo_C_FILES = 
+ViewPDF_C_FILES = 
 
 #
 # Makefiles
