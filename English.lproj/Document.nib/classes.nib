@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {firstPage = id; lastPage = id; nextPage = id; previousPage = id; }; 
+            CLASS = Controller; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                multiPageView = MultiPageView; 
+                scrollView = NSScrollView; 
+                singlePageView = SinglePageView; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = DocumentWindow; LANGUAGE = Java; SUPERCLASS = NSWindow; }, 
+        {CLASS = ExtendedScrollView; LANGUAGE = ObjC; SUPERCLASS = NSScrollView; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}
