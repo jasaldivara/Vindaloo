@@ -28,6 +28,9 @@
 
 - (void) centerDocumentView
 {
+  if (![self documentView])
+    return;
+
    NSRect docRect = [[self documentView] frame];
    NSRect clipRect = [self bounds];
 
@@ -53,6 +56,9 @@
 // origin point.
 - (NSPoint) constrainScrollPoint: (NSPoint)proposedNewOrigin
 {
+  if (![self documentView])
+    return [self bounds].origin;
+
    NSRect docRect = [[self documentView] frame];
    NSRect clipRect = [self bounds];
    NSPoint newScrollPoint = proposedNewOrigin;
