@@ -15,7 +15,7 @@
        NSUnixExtensions = (pdf,PDF);
        NSDOSExtensions = (pdf);
        NSMIMETypes = ("application/pdf");
-       NSRole = Editor;
+       NSRole = Viewer;
        NSDocumentClass = Document;
     });
 }
